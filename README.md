@@ -4,7 +4,22 @@
 
 ### [Live Demo](https://sridharbandi.github.io/forms/) 
 
-### Screenshots
+### Desktop Screenshots
 ![Login](/images/login.png)
-<img src="/images/login.png" width="48">
+![Signup](/images/signup.png)
+
+### Mobile Screenshots
+![Login](/images/mobilelogin.png)
+![Signup](/images/mobilesignup.png)
+
+> Note: This application won't send any of your details to server
+
+### Installation
+Clone or download and issue the below commands in project root directory and navigate to [http://localhost:3000](http://localhost:3000)
+```javascript
+npm install
+npm start
+```
+
+
 
