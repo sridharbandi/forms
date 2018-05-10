@@ -4,7 +4,7 @@
 
 ### [Live Demo](https://sridharbandi.github.io/forms/) 
 
-### Desktop Screenshots
+### Screenshots
 ![Login](/images/login.png)
 ![Signup](/images/signup.png)
 
