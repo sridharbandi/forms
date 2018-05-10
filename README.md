@@ -2,8 +2,8 @@
 
 ***Created by Sridhar Bandi***
 
-## [Live Demo](https://sridharbandi.github.io/forms/) 
+### [Live Demo](https://sridharbandi.github.io/forms/) 
 
-## Screenshots
+### Screenshots
 ![Login](/images/login.png)
 
