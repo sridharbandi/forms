@@ -14,8 +14,8 @@
 
 > Note: This application won't send any of your details to server
 
-### Installation
-Clone or download and issue the below commands in project root directory and navigate to [http://localhost:3000](http://localhost:3000)
+### To run in Local
+Clone or download and issue the below commands in project root directory and open [http://localhost:3000](http://localhost:3000) in browser
 ```javascript
 npm install
 npm start
