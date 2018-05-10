@@ -6,5 +6,5 @@
 
 ### Screenshots
 ![Login](/images/login.png)
-<img src="/images/login.png" width="48">
+<img src="/images/login.png" width="200">
 
