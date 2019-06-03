@@ -9,7 +9,6 @@ import { InputLabel } from 'material-ui/Input';
 import { FormControl, FormControlLabel } from 'material-ui/Form';
 import { withStyles } from 'material-ui/styles';
 import pink from 'material-ui/colors/red';
-import Typography from 'material-ui/Typography';
 import Header from '../Header/Header';
 import Aux from '../../hoc/Aux';
 
@@ -55,15 +54,9 @@ class AllElements extends Component {
 
     state = {
         textinput: '',
-        lastname: '',
-        email: '',
         radio: 'option1',
-        phone: '',
-        password: '',
-        confirmpassword: '',
-        terms: false,
-        err: '',
-        number:'Ten'
+        number:'Ten',
+        terms:false
     };
 
     handleChange = name => event => {
@@ -75,31 +68,7 @@ class AllElements extends Component {
     };
 
     signupHandler = () => {
-        if (this.state.textinput === ''
-            || this.state.lastname === ''
-            || this.state.email === ''
-            || this.state.phone === ''
-            || this.state.password === ''
-            || this.state.confirmpassword === ''
-            || !this.state.terms) {
-            this.setState({ err: 'All fields are mandatory' })
-            return;
-        }
-
-        if (!/\S+@\S+\.\S+/.test(this.state.email)) {
-            this.setState({ err: 'Email is incorrect format' })
-            return;
-        }
-
-        if (this.state.password !== this.state.confirmpassword) {
-            this.setState({ err: 'Password not matching' })
-            return;
-        }
-
-        localStorage.setItem('EMAIL', this.state.email);
-        localStorage.setItem('PASSWORD', this.state.password);
-        this.setState({ err: 'Successfully registered, please sign in' })
-
+        alert('You clicked on button');
     }
 
     render() {
@@ -166,9 +135,7 @@ class AllElements extends Component {
                                 }}
                                 label="Checkbox"
                             />
-                            <Typography variant="caption" component="p" className={this.props.classes.hintStyle}>
-                                {this.state.err}
-                            </Typography>
+                            <br/>
                             <FormControl component="fieldset" required error margin="normal">
                             <InputLabel htmlFor="number-native-simple">Number</InputLabel>
                                 <Select
